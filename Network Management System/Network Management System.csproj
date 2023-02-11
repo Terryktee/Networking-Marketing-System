@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B71CFB42-A54F-48B8-9A3F-E070B2729522}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Network_Management_System</RootNamespace>
+    <AssemblyName>Network Management System</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\frameworks\l\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.Charts.WinForms, Version=1.0.4.0, Culture=neutral, PublicKeyToken=70866663edbc6595, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.Charts.WinForms.1.0.4\lib\net40\Guna.Charts.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\frameworks\l\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework">
+      <HintPath>..\..\frameworks\l\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MySql.Data, Version=8.0.28.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data.EntityFramework, Version=8.0.28.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Web, Version=8.0.28.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySqlConnector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=d33d3e53aa5f8c92, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySqlConnector.2.2.5\lib\net471\MySqlConnector.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="SipaaFramework, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SipaaFramework.1.1.0\lib\net46\SipaaFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLABC_ModernUI">
+      <HintPath>..\..\frameworks\Bunifu_UI_v1.5.3\SQLABC_ModernUI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.6.0.0\lib\net461\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\frm_admindashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\frm_admindashboard.Designer.cs">
+      <DependentUpon>frm_admindashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frm_adminstartup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\frm_adminstartup.Designer.cs">
+      <DependentUpon>frm_adminstartup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frm_config.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\frm_config.Designer.cs">
+      <DependentUpon>frm_config.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frm_members.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\frm_members.Designer.cs">
+      <DependentUpon>frm_members.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frm_product.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\frm_product.Designer.cs">
+      <DependentUpon>frm_product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frm_productadd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\frm_productadd.Designer.cs">
+      <DependentUpon>frm_productadd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frm_register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\frm_register.Designer.cs">
+      <DependentUpon>frm_register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frm_reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\frm_reports.Designer.cs">
+      <DependentUpon>frm_reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\frm_sales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\frm_sales.Designer.cs">
+      <DependentUpon>frm_sales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Backend-scripts\connection.cs" />
+    <Compile Include="Backend-scripts\sqlcmds.cs" />
+    <Compile Include="custom-designs\errorAlert.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="custom-designs\errorAlert.Designer.cs">
+      <DependentUpon>errorAlert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="custom-designs\Popwarning.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="custom-designs\Popwarning.Designer.cs">
+      <DependentUpon>Popwarning.cs</DependentUpon>
+    </Compile>
+    <Compile Include="custom-designs\successpopup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="custom-designs\successpopup.Designer.cs">
+      <DependentUpon>successpopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frontend-scripts\panelshowform.cs" />
+    <Compile Include="frontend-scripts\user_validation.cs" />
+    <Compile Include="Member\frm_commission.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Member\frm_commission.Designer.cs">
+      <DependentUpon>frm_commission.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Member\frm_E-wallet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Member\frm_E-wallet.Designer.cs">
+      <DependentUpon>frm_E-wallet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Member\frm_memberdashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Member\frm_memberdashboard.Designer.cs">
+      <DependentUpon>frm_memberdashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Member\frm_memberstartup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Member\frm_memberstartup.Designer.cs">
+      <DependentUpon>frm_memberstartup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Member\frm_product_ordering.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Member\frm_product_ordering.Designer.cs">
+      <DependentUpon>frm_product_ordering.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Member\frm_settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Member\frm_settings.Designer.cs">
+      <DependentUpon>frm_settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Member\frm_logout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Member\frm_logout.Designer.cs">
+      <DependentUpon>frm_logout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Member\userprofile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Member\userprofile.Designer.cs">
+      <DependentUpon>userprofile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parent\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parent\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parent\frmlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parent\frmsignup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parent\frmsignup.Designer.cs">
+      <DependentUpon>frmsignup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parent\frm_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parent\frm_login.Designer.cs">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parent\frm_support.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parent\frm_support.Designer.cs">
+      <DependentUpon>frm_support.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parent\notification_panel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Parent\notification_panel.Designer.cs">
+      <DependentUpon>notification_panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Admin\frm_admindashboard.resx">
+      <DependentUpon>frm_admindashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\frm_adminstartup.resx">
+      <DependentUpon>frm_adminstartup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\frm_config.resx">
+      <DependentUpon>frm_config.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\frm_members.resx">
+      <DependentUpon>frm_members.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\frm_product.resx">
+      <DependentUpon>frm_product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\frm_productadd.resx">
+      <DependentUpon>frm_productadd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\frm_register.resx">
+      <DependentUpon>frm_register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\frm_reports.resx">
+      <DependentUpon>frm_reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\frm_sales.resx">
+      <DependentUpon>frm_sales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="custom-designs\errorAlert.resx">
+      <DependentUpon>errorAlert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="custom-designs\Popwarning.resx">
+      <DependentUpon>Popwarning.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="custom-designs\successpopup.resx">
+      <DependentUpon>successpopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Member\frm_commission.resx">
+      <DependentUpon>frm_commission.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Member\frm_E-wallet.resx">
+      <DependentUpon>frm_E-wallet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Member\frm_logout.resx">
+      <DependentUpon>frm_logout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Member\frm_memberdashboard.resx">
+      <DependentUpon>frm_memberdashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Member\frm_memberstartup.resx">
+      <DependentUpon>frm_memberstartup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Member\frm_product_ordering.resx">
+      <DependentUpon>frm_product_ordering.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Member\frm_settings.resx">
+      <DependentUpon>frm_settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Member\userprofile.resx">
+      <DependentUpon>userprofile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parent\frmlogin.resx">
+      <DependentUpon>frmlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parent\frmsignup.resx">
+      <DependentUpon>frmsignup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parent\frm_login.resx">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parent\frm_support.resx">
+      <DependentUpon>frm_support.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parent\notification_panel.resx">
+      <DependentUpon>notification_panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\..\frameworks\l\MetroFramework.dll" />
+    <Analyzer Include="..\packages\RG.CodeAnalyzer.1.0.30\analyzers\dotnet\cs\RG.CodeAnalyzer.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

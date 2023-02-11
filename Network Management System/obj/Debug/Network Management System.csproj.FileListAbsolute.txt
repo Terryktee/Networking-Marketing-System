@@ -1,0 +1,105 @@
+E:\Network Management System\Network Management System\bin\Debug\Network Management System.exe.config
+E:\Network Management System\Network Management System\bin\Debug\Network Management System.exe
+E:\Network Management System\Network Management System\bin\Debug\Network Management System.pdb
+E:\Network Management System\Network Management System\obj\Debug\Network_Management_System.Parent.Frmlogin.resources
+E:\Network Management System\Network Management System\obj\Debug\Network_Management_System.Properties.Resources.resources
+E:\Network Management System\Network Management System\obj\Debug\Network Management System.csproj.GenerateResource.cache
+E:\Network Management System\Network Management System\obj\Debug\Network Management System.csproj.CoreCompileInputs.cache
+E:\Network Management System\Network Management System\obj\Debug\Network Management System.exe
+E:\Network Management System\Network Management System\obj\Debug\Network Management System.pdb
+E:\Network Management System\Network Management System\bin\Debug\Bunifu_UI_v1.5.3.dll
+E:\Network Management System\Network Management System\bin\Debug\Guna.UI.dll
+E:\Network Management System\Network Management System\bin\Debug\MetroFramework.dll
+E:\Network Management System\Network Management System\bin\Debug\SQLABC_ModernUI.dll
+E:\Network Management System\Network Management System\obj\Debug\Network_Management_System.Admin.frm_adminstartup.resources
+E:\Network Management System\Network Management System\obj\Debug\Network_Management_System.Member.frm_commission.resources
+E:\Network Management System\Network Management System\obj\Debug\Network_Management_System.Member.frm_E_wallet.resources
+E:\Network Management System\Network Management System\obj\Debug\Network_Management_System.Member.frm_logout.resources
+E:\Network Management System\Network Management System\obj\Debug\Network_Management_System.Member.frm_memberdashboard.resources
+E:\Network Management System\Network Management System\obj\Debug\Network_Management_System.Member.frm_memberstartup.resources
+E:\Network Management System\Network Management System\obj\Debug\Network_Management_System.Member.frm_product_ordering.resources
+E:\Network Management System\Network Management System\obj\Debug\Network_Management_System.Member.frm_settings.resources
+E:\Network Management System\Network Management System\obj\Debug\Network_Management_System.Member.userprofile.resources
+E:\Network Management System\Network Management System\obj\Debug\Network_Management_System.Parent.frmsignup.resources
+E:\Network Management System\Network Management System\obj\Debug\Network_Management_System.Parent.frm_support.resources
+E:\Network Management System\Network Management System\obj\Debug\Network Management System.csproj.CopyComplete
+E:\Network Management System\Network Management System\obj\Debug\Network_Management_System.Admin.frm_admindashboard.resources
+E:\Network Management System\Network Management System\obj\Debug\Network_Management_System.Admin.frm_config.resources
+E:\Network Management System\Network Management System\obj\Debug\Network_Management_System.Admin.frm_members.resources
+E:\Network Management System\Network Management System\obj\Debug\Network_Management_System.Admin.frm_product.resources
+E:\Network Management System\Network Management System\obj\Debug\Network_Management_System.Admin.frm_productadd.resources
+E:\Network Management System\Network Management System\obj\Debug\Network_Management_System.Admin.frm_register.resources
+E:\Network Management System\Network Management System\obj\Debug\Network_Management_System.Admin.frm_reports.resources
+E:\Network Management System\Network Management System\obj\Debug\Network_Management_System.Admin.frm_sales.resources
+E:\Network Management System\Network Management System\obj\Debug\Network_Management_System.Parent.notification_panel.resources
+E:\Network Management System\Network Management System\obj\Debug\Network Management System.csprojAssemblyReference.cache
+E:\Network Management System\Network Management System\obj\Debug\Network_Management_System.Parent.frm_login.resources
+E:\Network Management System\Network Management System\obj\Debug\Network_Management_System.custom_designs.successpopup.resources
+E:\Network Marketing Management System\Network Management System\obj\Debug\Network Management System.csprojAssemblyReference.cache
+E:\Network Marketing Management System\Network Management System\obj\Debug\Network_Management_System.Admin.frm_admindashboard.resources
+E:\Network Marketing Management System\Network Management System\obj\Debug\Network_Management_System.Admin.frm_adminstartup.resources
+E:\Network Marketing Management System\Network Management System\obj\Debug\Network_Management_System.Admin.frm_config.resources
+E:\Network Marketing Management System\Network Management System\obj\Debug\Network_Management_System.Admin.frm_members.resources
+E:\Network Marketing Management System\Network Management System\obj\Debug\Network_Management_System.Admin.frm_product.resources
+E:\Network Marketing Management System\Network Management System\obj\Debug\Network_Management_System.Admin.frm_productadd.resources
+E:\Network Marketing Management System\Network Management System\obj\Debug\Network_Management_System.Admin.frm_register.resources
+E:\Network Marketing Management System\Network Management System\obj\Debug\Network_Management_System.Admin.frm_reports.resources
+E:\Network Marketing Management System\Network Management System\obj\Debug\Network_Management_System.Admin.frm_sales.resources
+E:\Network Marketing Management System\Network Management System\obj\Debug\Network_Management_System.custom_designs.errorAlert.resources
+E:\Network Marketing Management System\Network Management System\obj\Debug\Network_Management_System.custom_designs.Popwarning.resources
+E:\Network Marketing Management System\Network Management System\obj\Debug\Network_Management_System.custom_designs.successpopup.resources
+E:\Network Marketing Management System\Network Management System\obj\Debug\Network_Management_System.Member.frm_commission.resources
+E:\Network Marketing Management System\Network Management System\obj\Debug\Network_Management_System.Member.frm_E_wallet.resources
+E:\Network Marketing Management System\Network Management System\obj\Debug\Network_Management_System.Member.frm_logout.resources
+E:\Network Marketing Management System\Network Management System\obj\Debug\Network_Management_System.Member.frm_memberdashboard.resources
+E:\Network Marketing Management System\Network Management System\obj\Debug\Network_Management_System.Member.frm_memberstartup.resources
+E:\Network Marketing Management System\Network Management System\obj\Debug\Network_Management_System.Member.frm_product_ordering.resources
+E:\Network Marketing Management System\Network Management System\obj\Debug\Network_Management_System.Member.frm_settings.resources
+E:\Network Marketing Management System\Network Management System\obj\Debug\Network_Management_System.Member.userprofile.resources
+E:\Network Marketing Management System\Network Management System\obj\Debug\Network_Management_System.Parent.Frmlogin.resources
+E:\Network Marketing Management System\Network Management System\obj\Debug\Network_Management_System.Parent.frmsignup.resources
+E:\Network Marketing Management System\Network Management System\obj\Debug\Network_Management_System.Parent.frm_login.resources
+E:\Network Marketing Management System\Network Management System\obj\Debug\Network_Management_System.Parent.frm_support.resources
+E:\Network Marketing Management System\Network Management System\obj\Debug\Network_Management_System.Parent.notification_panel.resources
+E:\Network Marketing Management System\Network Management System\obj\Debug\Network_Management_System.Properties.Resources.resources
+E:\Network Marketing Management System\Network Management System\obj\Debug\Network Management System.csproj.GenerateResource.cache
+E:\Network Marketing Management System\Network Management System\obj\Debug\Network Management System.csproj.CoreCompileInputs.cache
+E:\Network Marketing Management System\Network Management System\obj\Debug\Network Management System.exe
+E:\Network Marketing Management System\Network Management System\obj\Debug\Network Management System.pdb
+E:\Network Marketing Management System\Network Management System\bin\Debug\Network Management System.exe.config
+E:\Network Marketing Management System\Network Management System\bin\Debug\Network Management System.exe
+E:\Network Marketing Management System\Network Management System\bin\Debug\Network Management System.pdb
+E:\Network Marketing Management System\Network Management System\bin\Debug\Bunifu_UI_v1.5.3.dll
+E:\Network Marketing Management System\Network Management System\bin\Debug\Guna.Charts.WinForms.dll
+E:\Network Marketing Management System\Network Management System\bin\Debug\Guna.UI.dll
+E:\Network Marketing Management System\Network Management System\bin\Debug\MetroFramework.dll
+E:\Network Marketing Management System\Network Management System\bin\Debug\MySql.Data.dll
+E:\Network Marketing Management System\Network Management System\bin\Debug\MySql.Data.EntityFramework.dll
+E:\Network Marketing Management System\Network Management System\bin\Debug\MySql.Web.dll
+E:\Network Marketing Management System\Network Management System\bin\Debug\MySqlConnector.dll
+E:\Network Marketing Management System\Network Management System\bin\Debug\SipaaFramework.dll
+E:\Network Marketing Management System\Network Management System\bin\Debug\SQLABC_ModernUI.dll
+E:\Network Marketing Management System\Network Management System\bin\Debug\System.Buffers.dll
+E:\Network Marketing Management System\Network Management System\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\Network Marketing Management System\Network Management System\bin\Debug\System.Memory.dll
+E:\Network Marketing Management System\Network Management System\bin\Debug\System.Numerics.Vectors.dll
+E:\Network Marketing Management System\Network Management System\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Network Marketing Management System\Network Management System\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Network Marketing Management System\Network Management System\bin\Debug\Google.Protobuf.dll
+E:\Network Marketing Management System\Network Management System\bin\Debug\ZstdNet.dll
+E:\Network Marketing Management System\Network Management System\bin\Debug\K4os.Compression.LZ4.Streams.dll
+E:\Network Marketing Management System\Network Management System\bin\Debug\BouncyCastle.Crypto.dll
+E:\Network Marketing Management System\Network Management System\bin\Debug\Ubiety.Dns.Core.dll
+E:\Network Marketing Management System\Network Management System\bin\Debug\K4os.Compression.LZ4.dll
+E:\Network Marketing Management System\Network Management System\bin\Debug\K4os.Hash.xxHash.dll
+E:\Network Marketing Management System\Network Management System\bin\Debug\MySql.Data.xml
+E:\Network Marketing Management System\Network Management System\bin\Debug\MySql.Data.EntityFramework.xml
+E:\Network Marketing Management System\Network Management System\bin\Debug\MySql.Web.xml
+E:\Network Marketing Management System\Network Management System\bin\Debug\MySqlConnector.xml
+E:\Network Marketing Management System\Network Management System\bin\Debug\System.Buffers.xml
+E:\Network Marketing Management System\Network Management System\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\Network Marketing Management System\Network Management System\bin\Debug\System.Memory.xml
+E:\Network Marketing Management System\Network Management System\bin\Debug\System.Numerics.Vectors.xml
+E:\Network Marketing Management System\Network Management System\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Network Marketing Management System\Network Management System\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\Network Marketing Management System\Network Management System\obj\Debug\Network Management System.csproj.CopyComplete
